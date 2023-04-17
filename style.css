@@ -1,0 +1,144 @@
+/* add a font from my pc */
+@font-face {
+  font-family: "Soloist";
+  src: url("assets/fonts/soloist1.ttf");
+}
+
+@font-face {
+  font-family: "Chillax";
+  src: url("assets/fonts/Chillax-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Chillax-bold";
+  src: url("assets/fonts/Chillax-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Chillax-semibold";
+  src: url("assets/fonts/Chillax-SemiBold.ttf");
+}
+
+body {
+  background-color: #1a75ff;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  /* space between li elements */
+  margin: 0 25px;
+  font-size: 18px;
+}
+.textlogo {
+  font-size: 48px;
+  font-family: "Chillax-bold";
+}
+
+nav {
+  font-family: "Chillax-semibold";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* center the content on the page*/
+  height: 100vh;
+  font-size: 48px;
+  font-family: "Soloist";
+  /* center horizontaly */
+  text-align: center;
+}
+
+.cta {
+  font-family: "Chillax-semibold";
+  font-size: 24px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  height: 80px;
+}
+
+.engagements {
+  display: flex;
+  flex-direction: column;
+}
+
+.engagement-titre {
+  display: flex;
+  justify-content: center;
+  font-family: "Soloist";
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  font-size: 20px;
+  font-family: "Chillax";
+  width: 270px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 0 30px 30px 30px;
+  margin-bottom: 150px;
+}
+
+.cardtitle {
+  font-family: "Chillax-semibold";
+  font-size: 24px;
+}
+
+.galerie-titre {
+  display: flex;
+  justify-content: center;
+  font-family: "Soloist";
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.galerie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.group {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.item {
+  width: 15vw;
+  height: 50vh;
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid white;
+}
